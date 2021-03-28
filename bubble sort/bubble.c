@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// size is currently an argument, cuz using sizeof for length was odd to me. will eventually sort it out for both files.
+
+
 int loop(int arr[], int size) {
     for (int i = 0; i < 5; i++) {
             printf("%d ", arr[i]);
